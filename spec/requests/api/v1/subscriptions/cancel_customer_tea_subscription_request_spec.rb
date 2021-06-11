@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe 'Cancel Customer Tea Subscription Request' do
+RSpec.describe 'Cancel Customer Tea Subscription Request', type: :request do
   describe "happy path" do
     it "cancels an existing subscription to a tea" do
       customer = create(:customer)
